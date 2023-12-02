@@ -1,0 +1,40 @@
+
+
+.navbar{
+    display: flex;
+    width: 100%;
+    /* height: 100px; */
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+}
+
+.headerAndCourses {
+    display: flex;
+    border-bottom: 1px solid #ccc; 
+    margin-bottom: 20px; 
+}
+
+.navbar li {
+    margin-right: 5%;
+    list-style-type: none; 
+}
+
+li::marker{
+    color: transparent;
+}
+
+.heady{
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search{
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+}
+
+

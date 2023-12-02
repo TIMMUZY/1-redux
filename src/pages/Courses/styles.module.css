@@ -1,0 +1,127 @@
+.images {
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+
+.imageContainer {
+    position: relative;
+    width: 350px;
+    text-align: left;
+    margin: 20px;
+    margin-left: 3%;
+    border: 1px solid gray;
+    border-bottom: 5px solid gray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 460px;
+    align-items: center; 
+    overflow: hidden;
+    transition: 0.7s ; 
+    cursor: pointer;
+}
+
+img {
+    width: 350px;
+    height: 230px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.imageDetails {
+    position: absolute;
+    margin-top: 10px;   
+    padding: 10px; 
+    box-sizing: border-box; 
+    background: rgba(255, 255, 255, 0.8);
+    transition: opacity 0.3s ease-in-out; 
+}
+
+.imageDetails p {
+    margin: 5px 0;
+}
+.imageContainer:hover .imageDetails {
+    opacity: 1; 
+  }
+  
+  .imageContainer:hover img {
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, 0.5);
+  }
+  .imageContainer:hover {
+    border-radius: 0;
+  }
+
+.table {
+    display: flex;
+    justify-content: space-between;    
+}
+.p1{
+    position: absolute;
+    top: 150px;
+}
+.p2{
+    position: absolute;
+    top: 170px;
+}
+.p3{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.p4{
+    position: absolute;
+    top: 170px;
+    left: 100px;
+    font-size: 15px;
+}
+
+.p5{
+    position: absolute;
+    top: 150px;
+    left: 220px;
+}
+.p6{
+    position: absolute;
+    top: 170px;
+    left: 220px;
+}
+
+.hr{
+    width: 0px;
+    height: 40px;
+    border: 1px solid black;
+    margin-left:  70px;
+    margin-top: 30px;
+}
+.hr1{
+    width: 0px;
+    height: 40px;
+    border: 1px solid black;
+    margin-right:  135px;
+    margin-top: 30px;
+}
+
+
+.dollar{
+    width: 60px;
+    background-color: rgb(125, 125, 205);
+    position: absolute;
+    left: 270px;
+    top: 10px;
+    padding-left: 20px;
+    color: white;
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.749);
+}
+
+.rating{
+    display: flex;
+    color: gold
+}
+
+/* .halfStar{
+    position: absolute;
+    left: 82px;
+    top: 33.5px;
+} */
